@@ -12,6 +12,7 @@ const users = [
 export default function DashboardPage() {
   return (
     <div className="p-6 space-y-6">
+      {/* Top Stats */}
       <div className="grid gap-4 md:grid-cols-3">
         <Card>
           <CardHeader>
@@ -33,6 +34,7 @@ export default function DashboardPage() {
         </Card>
       </div>
 
+      {/* Search + Table */}
       <div className="space-y-4">
         <div className="flex items-center gap-2">
           <Input placeholder="Search users..." className="max-w-sm" />
